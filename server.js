@@ -7,7 +7,7 @@ var React = require('react');
 var APP = require('./app');
 
 var app = express();
-var port = 9999;
+var port = process.env.PORT || 3000;
 
 app.use('/public', express.static(__dirname + '/public'));
 app.get('/', function(req, res) {
