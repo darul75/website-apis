@@ -88,12 +88,12 @@ module.exports={
 	    	"title": "Leviers d’optimisation des ressources humaines",	    	
 	    	"paragraphsCol1": [
 	    		"L’innovation modifie la relation au travail, chacun devient acteur et moteur. C’est l’ère du partage et de la transparence. Diriger, c’est donner du sens pour s’assurer de l’engagement des collaborateurs. Le management responsable, c’est jouer collectif et s’appuyer sur l’homme en lui même.",
-	    		"Notre approche considère l’homme pour ce qu‘il est et non ce qu’il sait « substantifique moelle » de notre méthode cognitive.",
+	    		"Notre approche considère l’homme pour ce qu‘il est et non pour ce qu’il sait c'est la « substantifique moelle » de notre méthode cognitive.",
 	    		"Elle favorise la prise de conscience de son potentiel en lui permettant de maîtriser son devenir en accord avec la politique des ressources humaines de l’entreprise."
 	    	],
 	    	"paragraphsCol2": [    							
 	    		"Elle développe ses capacités de recul, stimule ses attitudes positives face à l’environnement, dans le but de le transformer en force de proposition pour devenir acteur responsable.",
-	    		"Note savoir-faire : accompagner les RH dans la conduite du changement selon une approche systémique : Audit social, Détection des potentiels, Réflexion sur les organigrammes, Coaching individuel, Formation Managériales (high et middle), Recrutement"
+	    		"Note savoir-faire : accompagner les RH dans la conduite du changement selon une approche systémique : Audit social, Détection des potentiels, Réflexion sur les organigrammes, Coaching individuel, Formation Managériales (high et middle), Recrutement."
 	    	]
 		  }
 		},
@@ -120,8 +120,10 @@ module.exports={
 	    	"paragraphsCol1": [
 	    		{
 	    			"type": "html-paragraph",
-	    			"text": "Notre capital expertise, acquis depuis de nombreuses années, facilite la compréhension de nos clients pour recruter, former et manager <b>AUTREMENT</b>. Nous optimisons leurs demandes par l’apport de méthodes innovantes. Ils maîtrisent les enjeux de nos interventions, notre implication est totale."
+	    			"text": "Notre capital expertise, acquis depuis de nombreuses années, facilite la compréhension de nos clients pour recruter, former et manager <b>AUTREMENT</b>."
 	    		},
+	    		"Nous optimisons leurs demandes par l’apport de méthodes innovantes.",
+	    		"Ils maîtrisent les enjeux de nos interventions, notre implication est totale.",
 	    		{
 	    			"type": "html",
 	    			"text": "<p class='title'>Nous agissons dans le respect de la personne en assurant:</p>"
@@ -200,7 +202,7 @@ module.exports={
 	    	"title": "",
 	    	"citation": {
 	    		"author" : "Benjamin Franklin",
-	    		"text": "« Le bon jugement vient de l’expérience et l’expérience vient du jugement »"	    			    		
+	    		"text": "« Le bon jugement vient de l’expérience et l’expérience vient du mauvais jugement »"	    			    		
 	    	}
 		  }
 		},
