@@ -11,7 +11,7 @@ var APP = React.createClass({displayName: "APP",
     return (
       React.createElement("html", null, 
         React.createElement("head", null, 
-          React.createElement("title", null, "React Server Rendering"), 
+          React.createElement("title", null, "Apis Lazuli Consulting"), 
           React.createElement("link", {rel: "stylesheet", type: "text/css", href: "public/stylesheets/grid.css"}), 
           React.createElement("link", {rel: "stylesheet", type: "text/css", href: "public/stylesheets/main-v3.css"}), 
           React.createElement("link", {rel: "stylesheet", href: "//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"}), 

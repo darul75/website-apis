@@ -14,10 +14,11 @@
     "url": "https://github.com/darul75/website-apis.git"
   },
   "devDependencies": {    
-    "reactify": "^0.17.1"
+    
   },
   "dependencies": {
     "browserify": "^7.0.0",
+    "reactify": "^0.17.1",
     "express": "^4.10.6",
     "node-jsx": "^0.12.4",
     "react": "^0.12.1",
