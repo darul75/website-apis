@@ -385,7 +385,9 @@ div.grid.paragraph {
 @media only screen and (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
   .logo-white img{
     height: 160px;
-    margin-left: 44px;
-    top: -50px;
+    margin-left: 33px;    
+  }
+  #home .fake-lamp {
+    top: 60%;
   }
 }
