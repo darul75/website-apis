@@ -1,0 +1,389 @@
+@CHARSET "ISO-8859-1";
+
+body {
+  margin: 0;
+  font-family: "Caecilia-Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;  
+}
+
+/*font-family: "Open Sans",Helvetica,Arial,sans-serif;*/
+
+ h1 {  
+  width: 360px;
+  font-size: 1.5rem;
+  font-family: "Bitter";
+  font-size: 2rem;
+  padding-top: 130px;
+  color: #173676;
+  line-height: 2.5rem;
+  margin-left: -42px;
+  font-weight: bold;
+}
+
+#contact h1 {
+  width: 100%;
+  padding-top: 50px;
+  left: 125px;
+  position: relative;
+}
+
+p {
+  text-align: justify;
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 1.4rem;
+  margin-right: 40px;
+  letter-spacing: 0.1em;  
+}
+
+p.title {
+  color: #173676;
+  font-weight: bold;
+}
+
+#interventions p {
+  line-height: 1.8rem;
+}
+
+ul.menu li {
+  display: inline-block;
+  padding: 8px 0px;
+  margin: 0px 5px;  
+}
+
+/* Section / Chapter
+ * --------------------------------------- */
+#app {
+  display: none;
+}
+
+section {  
+  position: relative;
+  width: 100% !important;
+  min-width: 1000px;
+  margin: 0;
+  padding: 0;  
+  display: block;
+  height:0;
+}
+
+section div.story {    
+  position: relative;  
+  height:100%;  
+  z-index: 1;
+  width: 1000px;  
+  margin: auto;
+  background-color: rgba(26, 61, 132, 0.9);
+}
+
+section div.no-bg {    
+  background: none;
+}
+
+section .layout, section .layout-content {
+  height: inherit;
+}
+
+section div.chapter {
+  position: relative;  
+  height: 100%;
+  opacity: 1.0;
+  margin: 0;
+  width: 1000px;
+}
+
+section div.chapter-white {  
+  background-color: #FFF;
+  position: relative;
+  padding: 0 50px; 
+  z-index: 3;  
+  height: inherit;
+}
+
+#contact div.chapter-white {    
+  height: 860px;  
+}
+
+section div.chapter.home {
+  background-color: rgba(26, 61, 132, 0.7);
+}
+
+section div.chapter-img {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+section.home .story{
+  background: none;
+}  
+
+section#home .chapter-content{
+  padding-top: 100px;  
+}
+
+section.home .chapter-white{
+  background: none;
+}
+
+section .chapter-content {
+  width: 800px;
+  margin: auto;
+}
+
+section#contact .chapter-content {
+  width: 100%;
+} 
+
+section .chapter-content .chapter-paragraph {
+  text-align: justify;
+}
+
+.citation { 
+  position: absolute;  
+  z-index: 1;
+  margin: auto;  
+  z-index: 1;  
+  margin: auto;  
+  font-size: 4rem;      
+  padding: 20px 30px;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  color: #97D4C8;  
+  margin-top: 40%;  
+}
+
+.citation.home {  
+  position: relative;  
+  margin-top: 50%;
+}
+
+.citation .text {
+  font-size: 1.4rem;
+  text-align: left;
+  line-height: 2.3rem;
+  font-weight: 200;
+}  
+
+.citation .author {
+  text-align: right;
+  margin-right: 100px;  
+  font-weight: 100;
+}
+.imageHolder::after {
+  border-left: 20px solid #FFF;
+}
+
+#footer {
+  width: 100%;
+  height: 15px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  text-align: center;
+  margin: auto;  
+  font-size: 12px;
+  border-top: 1px solid #eee;  
+  padding: 8px 0px;  
+}
+
+/* Menu
+ * --------------------------------------- */
+
+div.header_menu {
+  position: fixed;  
+  height: 90px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #FFF;
+  z-index: 2;
+}
+
+div.header_menu h3.menu-toggle {
+  position: absolute;
+  top: 25px;
+  right: 19px;
+  margin: 0;
+  width: 40px;
+  height: 40px;
+  background: transparent url("../images/sprites.png") -176px 4px no-repeat;
+  cursor: pointer;
+}
+
+div.menu-toggle-alone {
+  float: right;
+  position: relative;
+  top: 25px;
+  right: 19px;
+  margin: 0;
+  width: 40px;
+  height: 40px;
+  background: transparent url("../images/sprites.png") -176px 4px no-repeat;
+  cursor: pointer;
+}
+
+div.header_menu .title {
+  font-family:"Open Sans";
+  position: absolute;  
+  font-size: 2rem;    
+  margin: 10px 18px;
+  text-transform: uppercase;
+  width: 100%;    
+  bottom: 0;  
+}
+
+header.menu-nav.toggled {
+  display: block;
+}
+
+header.menu-nav:after {
+  position: absolute;
+  top: -10px;
+  right: 6px;
+  border-bottom: 10px solid rgba( 255, 255, 255, .9 );
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  content: '';
+}
+
+header.menu-nav ul {  
+  margin: auto;
+  font-family: 'Open Sans', Helvetica, sans-serif;  
+  list-style: none;
+  margin: 0px 10px;
+}
+
+header.menu-nav ul li:nth-child(n+2) {
+  padding-left: 10px;
+  height: 7px;
+  bottom: 16px;
+  position: relative;
+}
+
+header.menu-nav ul li:nth-child(2) {
+  border-left: 2px solid #808285;
+  padding-left: 10px;
+  height: 7px;
+  bottom: 16px;
+  position: relative;
+}
+
+header.menu-nav > ul > li:nth-child(n+1) > a {
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #000;
+  bottom: 5px;
+  position: relative;
+  text-decoration: none;
+}
+
+header.menu-nav a:visited {
+  color: #808285;
+}
+
+header.menu-nav a:hover {
+  color: #808285;
+}
+
+/* Logo
+ * --------------------------------------- */
+
+.logo-white {
+  width: 375px;
+  overflow: auto;
+  position: relative;
+  margin: auto auto;
+  top: 100px;  
+  overflow: visible;  
+}
+
+.logo-home {
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+.rectangle {
+  width: 5px;
+  height: 5px;
+  border-radius: 6px;
+  float: left;
+  top: 9px;
+  margin-right: 10px;
+  position: relative; 
+}
+
+#interventions .rectangle {
+  border-radius: 6px;  
+  top: 6px;  
+  width: 0px;
+  height: 0px;
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  border-left: 9px solid #061B6A;
+  background: none;
+}
+
+.color-1 { background-color: #0C2D8C; }
+.color-2 { background-color: #061B6A; }
+.color-3 { background-color: #0C2D8C; }
+.color-4 { background-color: #0F3FAA; }
+.color-5 { background-color: #0C2D8C; }
+
+/*.grid__col--4-of-5 {
+  cursor: pointer;
+  width: 60px;
+  height: 71px;
+  margin-top: auto;
+  position: relative;
+  top: 0;
+}*/
+
+div.grid.paragraph {
+  border-left: 2px solid red;
+  border-right: 2px solid red;
+}
+
+#interventions div.grid.paragraph, #contact div.grid.paragraph {
+  border: 0;
+}
+
+.fake-lamp {  
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  cursor: pointer;
+  width: 60px;
+  height: 80px;        
+  z-index: 3;
+}
+
+#home .fake-lamp{  
+  top: 70%;  
+}
+
+.fa.fa-adjust.hover{
+  color: rgba(26, 61, 132, 0.9);
+}
+
+.vcard {
+  position: relative;
+  left: 100px;
+  line-height: 25px;
+}
+
+.hide {
+  display: none;
+}
+  
+@media only screen and (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
+  .logo-white{
+    height: 528px;
+  }
+}
