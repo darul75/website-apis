@@ -1,8 +1,18 @@
 'use strict';
 
+// react base
 var React = require('react');
+
+// router
+// var Router = require('react-router'); // or var Router = ReactRouter; in browsers
+// var DefaultRoute = Router.DefaultRoute;
+// var Link = Router.Link;
+// var Route = Router.Route;
+// var RouteHandler = Router.RouteHandler;
+
 var Application = require('./components/index.js'); 
 
+// data
 var json = require("./chapters-v1.json");
 
 var APP = React.createClass({  
