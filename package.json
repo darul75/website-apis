@@ -4,6 +4,9 @@
     "build": "browserify -t reactify app.js -o public/bundle.js",
     "start": "npm run build && node server.js"
   },
+  "engines": {
+    "node": "0.12.x"
+  },
   "devDependencies": {
     "browserify": "^7.0.0",
     "reactify": "^0.17.1"
