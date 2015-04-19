@@ -1,11 +1,17 @@
 {
   "name": "website-apis",
+  "description": "",
   "scripts": {
     "build": "browserify -t reactify app.js -o public/bundle.js",
     "start": "npm run build && node server.js"
   },
   "engines": {
     "node": "0.12.x"
+  },
+  "homepage": "https://github.com/darul75/website-apis",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darul75/website-apis.git"
   },
   "devDependencies": {
     "browserify": "^7.0.0",
