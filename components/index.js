@@ -221,6 +221,10 @@ var ChapterList = React.createClass({
           var height = section.immersive ? sectionHeight : {height:750};
           var chapterClass = section.immersive ? '': 'chapter-white animated';
           var titleMarkup = section.chapter.title ? <h1>{section.chapter.title}</h1> : '';
+          var paraMarkup1 = section.chapter.paragraphsCol1 ? <Paragraph paragraphs={section.chapter.paragraphsCol1}></Paragraph> : '';
+          var paraMarkup2 = section.chapter.paragraphsCol2 ? <Paragraph paragraphs={section.chapter.paragraphsCol2} right={true}></Paragraph> : '';
+
+          var paraCss = section.chapter.paragraphsCol1 ? 'grid paragraph' : '';
 
           return (
             <section key={section.chapter.path} className={homeCss} id={section.chapter.path} style={height}>
@@ -234,12 +238,12 @@ var ChapterList = React.createClass({
                           {titleMarkup}
                           {logo}
                           <Citation citation={section.chapter.citation} />
-                          <div className="grid paragraph">
+                          <div className={paraCss}>
                             <div className="grid__col grid__col--1-of-2"> 
-                                <Paragraph paragraphs={section.chapter.paragraphsCol1}></Paragraph>
+                                {paraMarkup1}
                             </div>
                             <div className="grid__col grid__col--1-of-2">
-                                <Paragraph paragraphs={section.chapter.paragraphsCol2} right={true}></Paragraph>
+                                {paraMarkup2}
                             </div>
                           </div>                        
                         </div>                                    

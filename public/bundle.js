@@ -571,6 +571,10 @@ var ChapterList = React.createClass({displayName: "ChapterList",
           var height = section.immersive ? sectionHeight : {height:750};
           var chapterClass = section.immersive ? '': 'chapter-white animated';
           var titleMarkup = section.chapter.title ? React.createElement("h1", null, section.chapter.title) : '';
+          var paraMarkup1 = section.chapter.paragraphsCol1 ? React.createElement(Paragraph, {paragraphs: section.chapter.paragraphsCol1}) : '';
+          var paraMarkup2 = section.chapter.paragraphsCol2 ? React.createElement(Paragraph, {paragraphs: section.chapter.paragraphsCol2, right: true}) : '';
+
+          var paraCss = section.chapter.paragraphsCol1 ? 'grid paragraph' : '';
 
           return (
             React.createElement("section", {key: section.chapter.path, className: homeCss, id: section.chapter.path, style: height}, 
@@ -584,12 +588,12 @@ var ChapterList = React.createClass({displayName: "ChapterList",
                           titleMarkup, 
                           logo, 
                           React.createElement(Citation, {citation: section.chapter.citation}), 
-                          React.createElement("div", {className: "grid paragraph"}, 
+                          React.createElement("div", {className: paraCss}, 
                             React.createElement("div", {className: "grid__col grid__col--1-of-2"}, 
-                                React.createElement(Paragraph, {paragraphs: section.chapter.paragraphsCol1})
+                                paraMarkup1
                             ), 
                             React.createElement("div", {className: "grid__col grid__col--1-of-2"}, 
-                                React.createElement(Paragraph, {paragraphs: section.chapter.paragraphsCol2, right: true})
+                                paraMarkup2
                             )
                           )
                         )
