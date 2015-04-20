@@ -8,8 +8,14 @@ var APP = require('./app');
 
 var app = express();
 var port = process.env.PORT || 3000;
+var mentions = __dirname + '/public/mentions.html';
 
 app.use('/public', express.static(__dirname + '/public'));
+
+app.get('/mentions', function(req, res){
+  res.sendFile(mentions);
+});
+
 app.get('/', function(req, res) {
   var markup = React.renderToString(APP());
   res.send(markup);
