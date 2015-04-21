@@ -30,7 +30,8 @@ var ChapterList = React.createClass({
     
     domEltLogo.hide();
     domEltCitation.hide();
-    domElt.addClass('no-bg');
+    domElt.addClass('fadeOutLeft');
+    domElt.removeClass('fadeInLeft');
     domEltButtons.addClass('hover');
   },
   lightButtonOut: function(index, pathId) {
@@ -40,8 +41,9 @@ var ChapterList = React.createClass({
     var domEltLogo = $('.logo-white');
     domEltLogo.show();
     domEltCitation.show();
-    domElt.removeClass('no-bg');
-    domEltButtons.removeClass('hover'); 
+    domElt.addClass('fadeInLeft');
+    domElt.removeClass('fadeOutLeft');
+    domEltButtons.removeClass('hover');
   },
   render: function() {
     if (this.props.data && this.props.data.sections) {
@@ -90,7 +92,7 @@ var ChapterList = React.createClass({
           return (
             <section key={section.chapter.path} className={homeCss} id={section.chapter.path} style={height}>
               {lightButton}
-              <div className="story" style={height}>
+              <div className="story animated" style={height}>
                 <div className="layout">
                   <div className="layout-content">
                     <div className="chapter">

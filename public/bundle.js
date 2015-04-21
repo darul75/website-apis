@@ -399,7 +399,8 @@ var ChapterList = React.createClass({displayName: "ChapterList",
     
     domEltLogo.hide();
     domEltCitation.hide();
-    domElt.addClass('no-bg');
+    domElt.addClass('fadeOutLeft');
+    domElt.removeClass('fadeInLeft');
     domEltButtons.addClass('hover');
   },
   lightButtonOut: function(index, pathId) {
@@ -409,8 +410,9 @@ var ChapterList = React.createClass({displayName: "ChapterList",
     var domEltLogo = $('.logo-white');
     domEltLogo.show();
     domEltCitation.show();
-    domElt.removeClass('no-bg');
-    domEltButtons.removeClass('hover'); 
+    domElt.addClass('fadeInLeft');
+    domElt.removeClass('fadeOutLeft');
+    domEltButtons.removeClass('hover');
   },
   render: function() {
     if (this.props.data && this.props.data.sections) {
@@ -459,7 +461,7 @@ var ChapterList = React.createClass({displayName: "ChapterList",
           return (
             React.createElement("section", {key: section.chapter.path, className: homeCss, id: section.chapter.path, style: height}, 
               lightButton, 
-              React.createElement("div", {className: "story", style: height}, 
+              React.createElement("div", {className: "story animated", style: height}, 
                 React.createElement("div", {className: "layout"}, 
                   React.createElement("div", {className: "layout-content"}, 
                     React.createElement("div", {className: "chapter"}, 
