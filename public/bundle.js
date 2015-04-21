@@ -25,6 +25,7 @@ var APP = React.createClass({displayName: "APP",
           React.createElement("meta", {name: "viewport", content: "width=device-width, initial-scale=1"}), 
           React.createElement("link", {rel: "stylesheet", type: "text/css", href: "public/stylesheets/grid.css"}), 
           React.createElement("link", {rel: "stylesheet", type: "text/css", href: "public/stylesheets/main-v3.css"}), 
+          React.createElement("link", {href: "http://fonts.googleapis.com/css?family=Bitter|Slabo+13px", rel: "stylesheet", type: "text/css"}), 
           React.createElement("link", {rel: "stylesheet", href: "//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"}), 
           React.createElement("link", {rel: "stylesheet", type: "text/css", href: "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.6/animate.min.css"}), 
           React.createElement("script", {src: "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"})
@@ -104,7 +105,34 @@ module.exports={
 	    	],
 	    	"paragraphsCol2": [    							
 	    		"Elle développe ses capacités de recul, stimule ses attitudes positives face à l’environnement, dans le but de le transformer en force de proposition pour devenir acteur responsable.",
-	    		"Note savoir-faire : accompagner les RH dans la conduite du changement selon une approche systémique : Audit social, Détection des potentiels, Réflexion sur les organigrammes, Coaching individuel, Formation Managériales (high et middle), Recrutement."
+	    		{
+	    			"type": "html",
+	    			"text": "<p class='title'>Note savoir-faire consiste à accompagner les RH dans la conduite du changement selon une approche systémique :</p>"
+	    		},	    		
+	    		{
+	    			"type": "expertise",
+	    			"text": "Audit social"
+	    		},
+	    		{
+	    			"type": "expertise",
+	    			"text": "Détection des potentiels"
+	    		},
+	    		{
+	    			"type": "expertise",
+	    			"text": "Réflexion sur les organigrammes"
+	    		},
+	    		{
+	    			"type": "expertise",
+	    			"text": "Coaching individuel"
+	    		},
+	    		{
+	    			"type": "expertise",
+	    			"text": "Formation Managériales (high et middle)"
+	    		},
+	    		{
+	    			"type": "expertise",
+	    			"text": "Recrutement"
+	    		}	    		
 	    	]
 		  }
 		},
@@ -193,11 +221,23 @@ module.exports={
 	    		"L’assesment cognitif est une méthode élaborée par Paris V La Sorbonne utilisée au sein d’Apis-Lazuli pour donner une valeur ajoutée significative à nos missions.",
 	    		"C’est un outil de détection des potentiels et des compétences, dont le but est  la découverte des qualités intrinsèques de l’homme et non le vernis de ses connaissances."	    		
 	    	],
-	    	"paragraphsCol2": [    		
-	    		"Accompagnement à la restructuration d’une Entreprise par une approche participative globale.",
-	    		"Formation des managers à la conduite du changement induit par l’innovation.",
-	    		"Mise en œuvre d’une politique RH en synergie avec les besoins stratégiques.",
-	    		"Harmonisation des engagements au sein des équipes managériales."
+	    	"paragraphsCol2": [
+	    		{
+	    			"type": "expertise",
+	    			"text": "Accompagnement à la restructuration d’une Entreprise par une approche participative globale."
+	    		},
+	    		{
+	    			"type": "expertise",
+	    			"text": "Formation des managers à la conduite du changement induit par l’innovation."
+	    		},
+	    		{
+	    			"type": "expertise",
+	    			"text": "Mise en œuvre d’une politique RH en synergie avec les besoins stratégiques."
+	    		},
+	    		{
+	    			"type": "expertise",
+	    			"text": "Harmonisation des engagements au sein des équipes managériales."
+	    		}
 	    	]
 		  }
 		},
