@@ -16,16 +16,19 @@ var Application = require('./components/index.js');
 // data
 var json = require("./chapters-v1.json");
 
+// <link href="http://fonts.googleapis.com/css?family=Bitter|Slabo+13px" rel="stylesheet" type="text/css" />
+
 var APP = React.createClass({displayName: "APP",  
-  render: function() {    
+  render: function() {
+    var description =  'Le savoir faire d\'Apis Lazuli Consulting consiste à accompagner les RH dans la conduite du changement selon une approche systémique';   
     return (
       React.createElement("html", null, 
         React.createElement("head", null, 
           React.createElement("title", null, "Apis Lazuli Consulting"), 
+          React.createElement("meta", {name: "description", content: description}), 
           React.createElement("meta", {name: "viewport", content: "width=device-width, initial-scale=1"}), 
           React.createElement("link", {rel: "stylesheet", type: "text/css", href: "public/stylesheets/grid.css"}), 
           React.createElement("link", {rel: "stylesheet", type: "text/css", href: "public/stylesheets/main-v3.css"}), 
-          React.createElement("link", {href: "http://fonts.googleapis.com/css?family=Bitter|Slabo+13px", rel: "stylesheet", type: "text/css"}), 
           React.createElement("link", {rel: "stylesheet", href: "//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"}), 
           React.createElement("link", {rel: "stylesheet", type: "text/css", href: "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.6/animate.min.css"}), 
           React.createElement("script", {src: "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"})
@@ -127,7 +130,7 @@ module.exports={
 	    		},
 	    		{
 	    			"type": "expertise",
-	    			"text": "Formation Managériales (high et middle)"
+	    			"text": "Formation Managériale (high et middle)"
 	    		},
 	    		{
 	    			"type": "expertise",
@@ -175,11 +178,11 @@ module.exports={
 	    	"paragraphsCol2": [    		
 	    		{
 	    			"type": "expertise",
-	    			"text": "Une montée en puissance des compétences existantes au sein de l’entreprise pour favoriser l’adhésion et l’investissement au projet entreprenarial (coaching de management)"
+	    			"text": "Une montée en puissance des compétences existantes au sein de l’entreprise pour favoriser l’adhésion et l’investissement au projet entrepreneurial (coaching de management)"
 	    		},
 	    		{
 	    			"type": "expertise",
-	    			"text": "Une formation managériale optimisant la gestion d’équipes en vue de la prise de décision au niveau de chaque responsable"
+	    			"text": "Une formation managériale optimisant la gestion d’équipe en vue de la prise de décision au niveau de chaque responsable"
 	    		},
 	    		{
 	    			"type": "html",
@@ -217,8 +220,11 @@ module.exports={
 	    	"path": "expertise",
 	    	"title": "Domaines d'expertises",	    	
 	    	"paragraphsCol1": [
-	    		"Assesment cognitif centré sur les fonctions exécutives (raisonnement, jugement, planification, perception et traitement de l’information) facteurs de réussite dans l’Entreprise.",
-	    		"L’assesment cognitif est une méthode élaborée par Paris V La Sorbonne utilisée au sein d’Apis-Lazuli pour donner une valeur ajoutée significative à nos missions.",
+	    		{
+	    			"type": "expertise",
+	    			"text": "Assesment cognitif centré sur les fonctions exécutives (raisonnement, jugement, planification, perception et traitement de l’information) facteurs de réussite dans l’Entreprise."
+	    		},	    		
+	    		"L’assesment cognitif est une méthode élaborée par Paris V La Sorbonne utilisée au sein d’Apis Lazuli Consulting pour donner une valeur ajoutée significative à nos missions.",
 	    		"C’est un outil de détection des potentiels et des compétences, dont le but est  la découverte des qualités intrinsèques de l’homme et non le vernis de ses connaissances."	    		
 	    	],
 	    	"paragraphsCol2": [
@@ -262,6 +268,10 @@ module.exports={
 	    	"path": "interventions",
 	    	"title": "Interventions",	    	
 	    	"paragraphsCol1": [
+	    		{
+	    			"type": "html",
+	    			"text": "<p class='title'>Diagnostic et développement de l'entreprise:</p>"
+	    		},
 	    		{
 	    			"type": "expertise",
 	    			"text": "Audit des ressources humaines"
@@ -331,7 +341,7 @@ module.exports={
 	    	"title": "",
 	    	"citation": {
 	    		"author" : "Peter Drucker",
-	    		"text": "« Ceux qui résistent au changement finissent par accepter, mais dans la douleur, qu’ils étaient dans l’erreur »"
+	    		"text": "« Ceux, qui résistent au changement, finissent par accepter, mais dans la douleur, qu’ils étaient dans l’erreur »"
 	    	}
 		  }
 		},
@@ -370,7 +380,7 @@ module.exports={
 	    			"vcard": {
 	    				"id": "Société",
 	    				"name": "Pierre Coeroli",	    				
-	    				"title": "Management Coaching"
+	    				"title": "Coaching de management"
 	    			}	    			
 	    		},
 	    		{
@@ -378,7 +388,7 @@ module.exports={
 	    			"vcard": {
 	    				"id": "Société",
 	    				"name": "Christine d’Aubigny de Saint Vulfran",
-	    				"title": "Cognitive Assessment"		
+	    				"title": "Assessment cognitif"		
 	    			}	    			
 	    		}	    		
 	    	],

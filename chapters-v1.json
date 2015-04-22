@@ -77,7 +77,7 @@
 	    		},
 	    		{
 	    			"type": "expertise",
-	    			"text": "Formation Managériales (high et middle)"
+	    			"text": "Formation Managériale (high et middle)"
 	    		},
 	    		{
 	    			"type": "expertise",
@@ -125,11 +125,11 @@
 	    	"paragraphsCol2": [    		
 	    		{
 	    			"type": "expertise",
-	    			"text": "Une montée en puissance des compétences existantes au sein de l’entreprise pour favoriser l’adhésion et l’investissement au projet entreprenarial (coaching de management)"
+	    			"text": "Une montée en puissance des compétences existantes au sein de l’entreprise pour favoriser l’adhésion et l’investissement au projet entrepreneurial (coaching de management)"
 	    		},
 	    		{
 	    			"type": "expertise",
-	    			"text": "Une formation managériale optimisant la gestion d’équipes en vue de la prise de décision au niveau de chaque responsable"
+	    			"text": "Une formation managériale optimisant la gestion d’équipe en vue de la prise de décision au niveau de chaque responsable"
 	    		},
 	    		{
 	    			"type": "html",
@@ -167,8 +167,11 @@
 	    	"path": "expertise",
 	    	"title": "Domaines d'expertises",	    	
 	    	"paragraphsCol1": [
-	    		"Assesment cognitif centré sur les fonctions exécutives (raisonnement, jugement, planification, perception et traitement de l’information) facteurs de réussite dans l’Entreprise.",
-	    		"L’assesment cognitif est une méthode élaborée par Paris V La Sorbonne utilisée au sein d’Apis-Lazuli pour donner une valeur ajoutée significative à nos missions.",
+	    		{
+	    			"type": "expertise",
+	    			"text": "Assesment cognitif centré sur les fonctions exécutives (raisonnement, jugement, planification, perception et traitement de l’information) facteurs de réussite dans l’Entreprise."
+	    		},	    		
+	    		"L’assesment cognitif est une méthode élaborée par Paris V La Sorbonne utilisée au sein d’Apis Lazuli Consulting pour donner une valeur ajoutée significative à nos missions.",
 	    		"C’est un outil de détection des potentiels et des compétences, dont le but est  la découverte des qualités intrinsèques de l’homme et non le vernis de ses connaissances."	    		
 	    	],
 	    	"paragraphsCol2": [
@@ -212,6 +215,10 @@
 	    	"path": "interventions",
 	    	"title": "Interventions",	    	
 	    	"paragraphsCol1": [
+	    		{
+	    			"type": "html",
+	    			"text": "<p class='title'>Diagnostic et développement de l'entreprise:</p>"
+	    		},
 	    		{
 	    			"type": "expertise",
 	    			"text": "Audit des ressources humaines"
@@ -281,7 +288,7 @@
 	    	"title": "",
 	    	"citation": {
 	    		"author" : "Peter Drucker",
-	    		"text": "« Ceux qui résistent au changement finissent par accepter, mais dans la douleur, qu’ils étaient dans l’erreur »"
+	    		"text": "« Ceux, qui résistent au changement, finissent par accepter, mais dans la douleur, qu’ils étaient dans l’erreur »"
 	    	}
 		  }
 		},
@@ -320,7 +327,7 @@
 	    			"vcard": {
 	    				"id": "Société",
 	    				"name": "Pierre Coeroli",	    				
-	    				"title": "Management Coaching"
+	    				"title": "Coaching de management"
 	    			}	    			
 	    		},
 	    		{
@@ -328,7 +335,7 @@
 	    			"vcard": {
 	    				"id": "Société",
 	    				"name": "Christine d’Aubigny de Saint Vulfran",
-	    				"title": "Cognitive Assessment"		
+	    				"title": "Assessment cognitif"		
 	    			}	    			
 	    		}	    		
 	    	],
