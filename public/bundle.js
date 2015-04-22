@@ -370,7 +370,7 @@ module.exports={
 	    			"vcard": {
 	    				"id": "Société",
 	    				"name": "Pierre Coeroli",	    				
-	    				"title": "Président"
+	    				"title": "Management Coaching"
 	    			}	    			
 	    		},
 	    		{
@@ -378,7 +378,7 @@ module.exports={
 	    			"vcard": {
 	    				"id": "Société",
 	    				"name": "Christine d’Aubigny de Saint Vulfran",
-	    				"title": "Recrutement"		
+	    				"title": "Cognitive Assessment"		
 	    			}	    			
 	    		}	    		
 	    	],
