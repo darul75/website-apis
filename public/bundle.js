@@ -20,7 +20,7 @@ var json = require("./chapters-v1.json");
 
 var APP = React.createClass({displayName: "APP",  
   render: function() {
-    var description =  'Le savoir faire d\'Apis Lazuli Consulting consiste à accompagner les RH dans la conduite du changement selon une approche systémique.';   
+    var description =  'Le savoir faire d\'Apis Lazuli Consulting consiste à accompagner les RH dans la conduite du changement selon une approche systémique.';
     return (
       React.createElement("html", null, 
         React.createElement("head", null, 
@@ -35,7 +35,8 @@ var APP = React.createClass({displayName: "APP",
         ), 
         React.createElement("body", null, 
           React.createElement(Application, {site: json}), 
-          React.createElement("script", {src: "public/bundle.js"})
+          React.createElement("script", {src: "public/bundle.js"}), 
+          React.createElement("script", {src: "public/google.js"})
         )
       )
     );
