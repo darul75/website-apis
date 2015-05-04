@@ -19,7 +19,7 @@ var json = require("./chapters-v1.json");
 
 var APP = React.createClass({  
   render: function() {
-    var description =  'Le savoir-faire d\'Apis Lazuli Consulting consiste à accompagner les RH dans la conduite du changement selon une approche systémique : audit social, détection des potentiels, réflexion sur les organigrammes, coaching individuel, formation managériale, recrutement.';
+    var description =  'Le savoir-faire d\'Apis Lazuli Consulting : audit social, détection des potentiels, réflexion sur les organigrammes, coaching individuel, formation managériale, recrutement.';
     return (
       <html>
         <head>

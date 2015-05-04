@@ -35,8 +35,12 @@ p {
 }
 
 p.title {
+  text-align: left;
   color: #173676;
   font-weight: bold;
+  font-size: 1rem;
+  word-spacing: 0px;  
+  letter-spacing: 0;  
 }
 
 #accueil p.expertise {
