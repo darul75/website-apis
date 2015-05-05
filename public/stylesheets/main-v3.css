@@ -150,8 +150,7 @@ section .chapter-content .chapter-paragraph {
   text-align: justify;
 }
 
-.citation { 
-  font-family: 'Bitter';
+.citation {   
   position: absolute;  
   z-index: 1;
   margin: auto;  
@@ -177,8 +176,7 @@ section .chapter-content .chapter-paragraph {
   font-weight: 200;
 }  
 
-.citation .author {
-  font-family: 'Slabo+13px';
+.citation .author {  
   text-align: right;
   margin-right: 100px;  
   font-weight: 100;
@@ -398,6 +396,13 @@ div.grid.paragraph {
 @media (min-device-width:768px) and (max-device-width:1024px) {
   #home .fake-lamp {
     top: 60%;
+  }  
+}
+
+@media screen and (max-height:768px) {  
+  .citation {  
+    position: absolute;
+    top: 25px;
   }
 }
   
