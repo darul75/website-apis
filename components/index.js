@@ -5,6 +5,7 @@ var React = require('react');
 // components
 var Logo = require('./logo');
 var Footer = require('./footer');
+var Story = require('./story');
 var Menu = require('./menu');
 var Citation = require('./section-citation');
 var Paragraph = require('./section-paragraph');
@@ -56,7 +57,8 @@ var ChapterList = React.createClass({
 
         if (section.chapter) {  
           var homeCss = index === 0 ? '' : '';
-          var logo = index === 0 ? <Logo /> : '';          
+          var logo = index === 0 ? <Logo /> : '';
+          var story = section.chapter.story ? <Story story={section.chapter.story} /> : '';
           var parallaxStyle;
           var parallaxImage;          
           var lightButton = '';
@@ -82,6 +84,7 @@ var ChapterList = React.createClass({
           } 
           
           var height = section.immersive ? sectionHeight : {height:750};
+          height = section.chapter.styleHeight ? {height:section.chapter.styleHeight} : height;
           var chapterClass = section.immersive ? '': 'chapter-white animated';
           var titleMarkup = section.chapter.title ? <h1>{section.chapter.title}</h1> : '';
           var paraMarkup1 = section.chapter.paragraphsCol1 ? <Paragraph paragraphs={section.chapter.paragraphsCol1}></Paragraph> : '';
@@ -100,6 +103,7 @@ var ChapterList = React.createClass({
                         <div className="chapter-content">     
                           {titleMarkup}
                           {logo}
+                          {story}
                           <Citation citation={section.chapter.citation} />
                           <div className={paraCss}>
                             <div className="grid__col grid__col--1-of-2"> 

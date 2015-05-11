@@ -3,10 +3,12 @@
 require('node-jsx').install();
 
 var express = require('express');
+var favicon = require('serve-favicon');
 var React = require('react');
 var APP = require('./app');
 
 var app = express();
+app.use(favicon(__dirname + '/public/images/favicon.ico'));
 var port = process.env.PORT || 3000;
 var mentions = __dirname + '/public/mentions.html';
 

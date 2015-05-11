@@ -34,6 +34,11 @@ p {
   letter-spacing: 0.1em;  
 }
 
+p.footer {
+  margin: 5px;
+  text-align: center;
+}
+
 p.title {
   text-align: left;
   color: #173676;
@@ -185,6 +190,10 @@ section .chapter-content .chapter-paragraph {
   border-left: 20px solid #FFF;
 }
 
+#story {
+  padding: 100px 0;
+}
+
 #footer {
   width: 100%;
   bottom: 0;  
@@ -193,7 +202,7 @@ section .chapter-content .chapter-paragraph {
   margin: auto;
   font-size: 12px;
   border-top: 1px solid #eee;
-  padding: 8px 0px;  
+  padding: 8px 0px;    
 }
 
 #footer a {
@@ -387,6 +396,14 @@ div.grid.paragraph {
   position: relative;
   left: 100px;
   line-height: 25px;
+}
+
+.vcard .org {
+  text-transform: UPPERCASE;
+}
+
+.vcard .name {
+  margin-top: 10px;
 }
 
 .hide {

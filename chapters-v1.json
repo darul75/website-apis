@@ -318,8 +318,7 @@
 	    					"street": "14 rue Beffroy",
 	    					"locality": "Neuilly sur Seine",
 	    					"postal": "92200"	
-	    				},
-	    				"phone": "06 43 08 94 99"
+	    				}
 	    			}	    			
 	    		},
 	    		{
@@ -327,7 +326,8 @@
 	    			"vcard": {
 	    				"id": "Société",
 	    				"name": "Pierre Coeroli",	    				
-	    				"title": "Coaching de management"
+	    				"title": "Coaching de management",
+	    				"phone": "06 43 08 94 99"
 	    			}	    			
 	    		},
 	    		{
@@ -335,12 +335,38 @@
 	    			"vcard": {
 	    				"id": "Société",
 	    				"name": "Christine d’Aubigny de Saint Vulfran",
-	    				"title": "Assessment cognitif"		
+	    				"title": "Assessment cognitif",
+	    				"phone": "06 07 04 02 49" 		
 	    			}	    			
 	    		}	    		
-	    	],
-	    	"styleHeight": 900
+	    	]
 		  }
-		}				
+		},
+		{
+			"chapter": {
+		    	"path": "story",
+		    	"noanimate": true,
+		    	"title": "",	    	
+		    	"story": {
+		    		"img": "public/images/footer.png",
+		    		"items": 
+			    	[
+			    		{
+			    			"type": "html",
+			    			"text": "<p class='footer'><b>Apis</b> est le taureau puissant et vigoureux, symbole de vie et de renaissance, de la force et de l'énergie créative. Il se rapproche du Dieu Ré comme l'atteste le disque solaire entre ses cornes.</p>"
+			    		},
+			    		{
+			    			"type": "html",
+			    			"text": "<p class='footer'><b>Lapis Lazuli</b> symbole de gaieté et d'harmonie.</p>"
+			    		},
+			    		{
+			    			"type": "html",
+			    			"text": "<p class='footer'><b>Apis Lazuli</b>, clin d'oeil de Apis avec Apis-Lazuli: pierre sacrée égyptienne, structure le développement de la vision clairvoyante en la raccordant à la vie quotidienne.</p>"
+			    		}
+			    	]					
+					},
+					"styleHeight": 600
+		   }
+		}					
 	]
 }

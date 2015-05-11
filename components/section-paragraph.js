@@ -25,14 +25,14 @@ var Paragraph = React.createClass({
               <div className="adr">
               <div className="street-address">{paragraph.vcard.address.street}</div>
               <span className="locality">{paragraph.vcard.address.locality}</span>, <span className="postal-code">{paragraph.vcard.address.postal}</span>
-             </div>
-             <div className="tel">{paragraph.vcard.phone}</div>            
+             </div>             
             </div>
             break;
             case 'vcard-person': 
             paragraphMarkup = <div key={paragraphKey} id={paragraph.vcard.id} className="vcard">
-              <div className="name"><b>{paragraph.vcard.name}</b></div>                           
+              <div className="name"><b>{paragraph.vcard.name}</b></div>
               <div className="title">{paragraph.vcard.title}</div>
+              <div className="tel">{paragraph.vcard.phone}</div>            
             </div>
             break;
             case 'html':
