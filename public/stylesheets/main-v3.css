@@ -5,6 +5,12 @@ body {
   font-family: "Caecilia-Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;  
 }
 
+* {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 /*font-family: "Open Sans",Helvetica,Arial,sans-serif;*/
 
  h1 {  
