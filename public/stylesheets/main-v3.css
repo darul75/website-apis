@@ -197,6 +197,7 @@ section .chapter-content .chapter-paragraph {
 }
 
 #story {
+  border-top: 1px solid #eee;
   padding: 100px 0;
 }
 
