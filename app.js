@@ -26,6 +26,7 @@ var APP = React.createClass({
           <title>Apis Lazuli Consulting</title>
           <meta name="description" content={description} />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link rel="icon" href="public/images/favicon.ico" />
           <link rel="stylesheet" type="text/css" href="public/stylesheets/grid.css" />
           <link rel="stylesheet" type="text/css" href="public/stylesheets/main-v3.css" />          
           <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
