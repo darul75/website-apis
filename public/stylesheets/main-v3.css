@@ -392,7 +392,7 @@ div.grid.paragraph {
 }
 
 #home .fake-lamp{  
-  top: 70%;  
+  top: 80%;  
 }
 
 .fa.fa-adjust.hover{
@@ -417,16 +417,29 @@ div.grid.paragraph {
   display: none;
 }
 
-@media (min-device-width:768px) and (max-device-width:1024px) {
-  #home .fake-lamp {
-    top: 60%;
-  }  
-}
-
 @media screen and (max-height:768px) {  
-  .citation {  
-    position: absolute;
-    top: 25px;
+  h1 {
+    padding-top: 70px;
+  }
+
+  div.header_menu {    
+    height: 50px;    
+  }
+
+  div.header_menu img {    
+    height: 45px;
+  }
+
+  div.menu-nav {
+    font-size: 1rem;
+  }  
+
+  #home .fake-lamp {
+    top: 90%;
+  }
+
+  .citation.home {      
+    margin-top: 40%;
   }
 }
   
