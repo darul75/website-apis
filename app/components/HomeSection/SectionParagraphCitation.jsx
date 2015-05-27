@@ -1,9 +1,13 @@
-'use strict'
+import React from 'react';
+import { PropTypes } from 'react';
 
-var React = require('react');
 
-var Citation = React.createClass({
-  render: function() {
+export default class SectionParagraphCitation extends React.Component {
+  constructor() {
+    super();
+  }  
+
+  render() {
     var citationMarkup = ""    
     if (this.props.citation) {
       var citationAddClass = this.props.citation.class ? this.props.citation.class : '';
@@ -19,6 +23,7 @@ var Citation = React.createClass({
     }   
     return React.DOM.div({}, citationMarkup);
   }
-});
 
-module.exports = Citation;
+};
+
+SectionParagraphCitation.prototype.displayName = "SectionParagraphCitation";

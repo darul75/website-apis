@@ -1,9 +1,31 @@
-'use strict'
+import React from 'react';
+import { PropTypes } from 'react';
 
-var React = require('react');
+import AppStore from '../../stores/AppStore';
+import AppActions from '../../actions/AppActions';
+import Sections from './Sections';
 
-var Paragraph = React.createClass({
-  render: function() {
+function getDataState() {
+  return {    
+    json: AppStore.getState().json
+  };
+}
+
+export default class SectionParagraph extends React.Component {
+  constructor() {
+    super();
+    this.state = getDataState();    
+  }
+
+  componentDidMount() {
+    
+  }
+
+  componentWillUnmount() {
+    
+  }
+
+  render() {
     var paragraphNodes = "";
     var self = this;
     if (this.props.paragraphs) {
@@ -18,7 +40,7 @@ var Paragraph = React.createClass({
   
         if (typeof paragraph === 'object') {
           switch (paragraph.type) {
-            case 'vcard': 
+            case 'vcard':
             paragraphMarkup = <div key={paragraphKey} id={paragraph.vcard.id} className="vcard">
               <div className="org"><b>{paragraph.vcard.org}</b></div>
               <a className="email" href={paragraph.vcard.email}>contact@apis-lazuli-consulting.fr</a>
@@ -28,11 +50,11 @@ var Paragraph = React.createClass({
              </div>             
             </div>
             break;
-            case 'vcard-person': 
+            case 'vcard-person':
             paragraphMarkup = <div key={paragraphKey} id={paragraph.vcard.id} className="vcard">
               <div className="name"><b>{paragraph.vcard.name}</b></div>
               <div className="title">{paragraph.vcard.title}</div>
-              <div className="tel">{paragraph.vcard.phone}</div>            
+              <div className="tel">{paragraph.vcard.phone}</div>
             </div>
             break;
             case 'html':
@@ -47,17 +69,18 @@ var Paragraph = React.createClass({
                 <p className={paragraph.type}>{paragraph.text}</p>
               </div>
             break;
-          }                            
+          }
         } else {
           paragraphMarkup = <p style={paragraphStyle} key={paragraphKey} dangerouslySetInnerHTML={{__html: paragraph}}></p>
         }
 
-        return React.DOM.div({key: paragraphKey}, paragraphMarkup);        
+        return React.DOM.div({key: paragraphKey}, paragraphMarkup);
       });
     }
 
     return React.DOM.div({className:'chapter-paragraph'}, paragraphNodes);
   }
-});
 
-module.exports = Paragraph;
+};
+
+SectionParagraph.prototype.displayName = "SectionParagraph";

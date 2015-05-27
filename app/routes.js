@@ -4,16 +4,13 @@ import React from 'react';
 import {Route, DefaultRoute, NotFoundRoute} from 'react-router';
 
 import Application from './components/App/App';
-import Contact from './components/ContactSection/Contact';
+import Mentions from './components/Mentions/Mentions';
 import HomeSection from './components/HomeSection/HomeSection';
 import NotFoundSection from './components/NotFoundSection/NotFoundSection';
-import TodoSection from './components/TodoSection/TodoSection';
 
 export default (
   <Route name='app' path='/' handler={Application}>
-    <Route name='home' path='/home' handler={HomeSection}/>
-    <Route name='todo' path='/todo' handler={TodoSection}/>
-    <Route name='contact' path="/contact" handler={Contact}/>
+	<Route name='mentions' path='/mentions' handler={Mentions}/>
     <DefaultRoute handler={HomeSection} />
     <NotFoundRoute handler={NotFoundSection} />
   </Route>

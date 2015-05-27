@@ -8,6 +8,8 @@ let appStore = alt.createStore(class AppStore {
     this.bindActions(AppActions);
     this.dataByRestApi = {};
     this.data = {};
+    // data
+    this.json = require('json!../../chapters-v1.json');
   }
 
   update(id, updates) {

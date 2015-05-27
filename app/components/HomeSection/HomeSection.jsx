@@ -3,20 +3,18 @@ import { PropTypes } from 'react';
 
 import AppStore from '../../stores/AppStore';
 import AppActions from '../../actions/AppActions';
+import Sections from './Sections';
 
-/**
- * Retrieve the current data from the AppStore
- */
 function getDataState() {
-  return {
-    apiData: AppStore.getState().dataByRestApi
+  return {    
+    json: AppStore.getState().json
   };
 }
 
 export default class HomeSection extends React.Component {
   constructor() {
     super();
-    this.state = getDataState();
+    this.state = getDataState();    
   }
 
   componentDidMount() {
@@ -28,12 +26,8 @@ export default class HomeSection extends React.Component {
   }
 
   render() {
-    return (
-      <div>
-      	<h1>HOME PAGE</h1>
-        <div><button onClick={this._onClick.bind(this)}>FAKE API CALL</button></div>
-        <div>{this.state.apiData.data}</div>
-      </div>
+    return (      
+      <Sections />      
     );
   }
 

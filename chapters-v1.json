@@ -29,7 +29,7 @@
 	"sections": [
 		{
 	    "immersive": {
-	    	"img": "public/images/img-1600-1200_5.jpg",
+	    	"img": "./images/img-1600-1200_5.jpg",
 	    	"w": "1600",
 	    	"h": "1200",
 	    	"ratio": "1"
@@ -88,7 +88,7 @@
 		},
 		{
 	    "immersive": {
-	    	"img": "public/images/img-1600-1200_3.jpg",
+	    	"img": "./images/img-1600-1200_3.jpg",
 	    	"w": "1600",
 	    	"h": "1200",
 	    	"ratio": "1"
@@ -148,7 +148,7 @@
 		},
 		{
 	    "immersive": {
-	    	"img": "public/images/img-1600-1200_2.jpg",
+	    	"img": "./images/img-1600-1200_2.jpg",
 	    	"w": "1600",
 	    	"h": "1200",
 	    	"ratio": "1"
@@ -196,7 +196,7 @@
 		},
 		{
 	    "immersive": {
-	    	"img": "public/images/img-1600-1200_1.jpg",
+	    	"img": "./images/img-1600-1200_1.jpg",
 	    	"w": "1600",
 	    	"h": "1200",
 	    	"ratio": "1"
@@ -278,7 +278,7 @@
 		},
 		{
 	    "immersive": {
-	    	"img": "public/images/img-1600-1200_4.jpg",
+	    	"img": "./images/img-1600-1200_4.jpg",
 	    	"w": "1600",
 	    	"h": "1200",
 	    	"ratio": "1"
@@ -348,8 +348,8 @@
 		    	"noanimate": true,
 		    	"title": "",	    	
 		    	"story": {
-		    		"img": "public/images/footer.png",
-		    		"items": 
+		    		"img": "./images/footer.png",
+		    		"items":
 			    	[
 			    		{
 			    			"type": "html",
