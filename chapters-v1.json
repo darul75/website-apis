@@ -19,13 +19,13 @@
 		{
 			"path": "#contact",
 			"text": "Contact"
-		}		
+		}
 	],
 	"home": {
 		"logo": "public/images/logo-blanc.svg",
 		"logoHeight": "200px",
-		"logoClassnames": "logo-home animated bounce" 
-	},	
+		"logoClassnames": "logo-home animated bounce"
+	},
 	"sections": [
 		{
 	    "immersive": {
@@ -41,31 +41,20 @@
 	    		"author" : "Galilée",
 	    		"text": "« Il est impossible d'enseigner quelquechose à quelqu'un, vous ne pouvez l'aider qu'à le découvrir en lui »",
 	    		"class": "home"
-	    	}	    	
+	    	}
 		  }
 		},
-		{	    
+		{
 	    "chapter": {
 	    	"path": "accueil",
-	    	"title": "Leviers d’optimisation des ressources humaines",	    	
+	    	"title": "Leviers d’optimisation des ressources humaines",
 	    	"paragraphsCol1": [
-	    		"L’innovation modifie la relation au travail, chacun devient acteur et moteur. C’est l’ère du partage et de la transparence. Diriger, c’est donner du sens pour s’assurer de l’engagement des collaborateurs. Le management responsable, c’est jouer collectif et s’appuyer sur l’homme en lui même.",
-	    		"Notre approche considère l’homme pour ce qu‘il est et non pour ce qu’il sait c'est la « substantifique moelle » de notre méthode cognitive.",
-	    		"Elle favorise la prise de conscience de son potentiel en lui permettant de maîtriser son devenir en accord avec la politique des ressources humaines de l’entreprise."
+	    		"L’innovation modifie la relation au travail, chacun devient acteur et moteur. C’est l’ère du partage et de la transparence. Diriger, c’est donner du sens pour s’assurer de l’engagement des collaborateurs. Le management responsable, c’est jouer collectif et s’appuyer sur l’homme en lui même."
 	    	],
-	    	"paragraphsCol2": [    							
-	    		"Elle développe ses capacités de recul, stimule ses attitudes positives face à l’environnement, dans le but de le transformer en force de proposition pour devenir acteur responsable.",
+	    	"paragraphsCol2": [
 	    		{
 	    			"type": "html",
 	    			"text": "<p class='title'>Notre savoir-faire consiste à accompagner les RH dans la conduite du changement selon une approche systémique :</p>"
-	    		},	    		
-	    		{
-	    			"type": "expertise",
-	    			"text": "Audit social"
-	    		},
-	    		{
-	    			"type": "expertise",
-	    			"text": "Détection des potentiels"
 	    		},
 	    		{
 	    			"type": "expertise",
@@ -78,11 +67,7 @@
 	    		{
 	    			"type": "expertise",
 	    			"text": "Formation Managériale (high et middle)"
-	    		},
-	    		{
-	    			"type": "expertise",
-	    			"text": "Recrutement"
-	    		}	    		
+	    		}
 	    	]
 		  }
 		},
@@ -98,14 +83,14 @@
 	    	"title": "",
 	    	"citation": {
 	    		"author" : "John Fitzgerald Kennedy",
-	    		"text": "« Certaines personnes voient les choses comme elles sont et se demandent : Pourquoi ? Moi, je vois les choses comme elles pourraient être et je me dis : Pourquoi pas ? »"	    		
+	    		"text": "« Certaines personnes voient les choses comme elles sont et se demandent : Pourquoi ? Moi, je vois les choses comme elles pourraient être et je me dis : Pourquoi pas ? »"
 	    	}
 		  }
 		},
-		{	    
+		{
 	    "chapter": {
 	    	"path": "apports",
-	    	"title": "Apports",	    	
+	    	"title": "Apports",
 	    	"paragraphsCol1": [
 	    		{
 	    			"type": "html-paragraph",
@@ -116,13 +101,9 @@
 	    		{
 	    			"type": "html",
 	    			"text": "<p class='title'>Nous agissons dans le respect de la personne en assurant:</p>"
-	    		},
-	    		{
-	    			"type": "expertise",
-	    			"text": "Une sélection et un choix transparent de l’adéquation du potentiel de chacun aux besoins de l’entreprise (assesment cognitif)"
 	    		}
 	    	],
-	    	"paragraphsCol2": [    		
+	    	"paragraphsCol2": [
 	    		{
 	    			"type": "expertise",
 	    			"text": "Une montée en puissance des compétences existantes au sein de l’entreprise pour favoriser l’adhésion et l’investissement au projet entrepreneurial (coaching de management)"
@@ -158,23 +139,15 @@
 	    	"title": "",
 	    	"citation": {
 	    		"author" : "Johann Wolfgang GOETHE",
-	    		"text": "« On peut bâtir quelque chose de beau avec les pierres qui entravent le chemin »"	    		
+	    		"text": "« On peut bâtir quelque chose de beau avec les pierres qui entravent le chemin »"
 	    	}
 		  }
 		},
-		{	    
+		{
 	    "chapter": {
 	    	"path": "expertise",
-	    	"title": "Domaines d'expertises",	    	
+	    	"title": "Domaines d'expertises",
 	    	"paragraphsCol1": [
-	    		{
-	    			"type": "expertise",
-	    			"text": "Assesment cognitif centré sur les fonctions exécutives (raisonnement, jugement, planification, perception et traitement de l’information) facteurs de réussite dans l’Entreprise."
-	    		},	    		
-	    		"L’assesment cognitif est une méthode élaborée par Paris V La Sorbonne utilisée au sein d’Apis Lazuli Consulting pour donner une valeur ajoutée significative à nos missions.",
-	    		"C’est un outil de détection des potentiels et des compétences, dont le but est  la découverte des qualités intrinsèques de l’homme et non le vernis de ses connaissances."	    		
-	    	],
-	    	"paragraphsCol2": [
 	    		{
 	    			"type": "expertise",
 	    			"text": "Accompagnement à la restructuration d’une Entreprise par une approche participative globale."
@@ -182,7 +155,9 @@
 	    		{
 	    			"type": "expertise",
 	    			"text": "Formation des managers à la conduite du changement induit par l’innovation."
-	    		},
+	    		}
+        ],
+        "paragraphsCol2": [
 	    		{
 	    			"type": "expertise",
 	    			"text": "Mise en œuvre d’une politique RH en synergie avec les besoins stratégiques."
@@ -206,30 +181,18 @@
 	    	"title": "",
 	    	"citation": {
 	    		"author" : "Benjamin Franklin",
-	    		"text": "« Le bon jugement vient de l’expérience et l’expérience vient du mauvais jugement »"	    			    		
+	    		"text": "« Le bon jugement vient de l’expérience et l’expérience vient du mauvais jugement »"
 	    	}
 		  }
 		},
 		{
 			"chapter": {
 	    	"path": "interventions",
-	    	"title": "Interventions",	    	
+	    	"title": "Interventions",
 	    	"paragraphsCol1": [
 	    		{
 	    			"type": "html",
 	    			"text": "<p class='title'>Diagnostic et développement de l'entreprise:</p>"
-	    		},
-	    		{
-	    			"type": "expertise",
-	    			"text": "Audit des ressources humaines"
-	    		},
-	    		{
-	    			"type": "expertise",
-	    			"text": "Assesment cognitif"
-	    		},
-	    		{
-	    			"type": "expertise",
-	    			"text": "Bilan professionnel"
 	    		},
 	    		{
 	    			"type": "expertise",
@@ -238,14 +201,6 @@
 	    		{
 	    			"type": "expertise",
 	    			"text": "Formation des managers"
-	    		},
-	    		{
-	    			"type": "expertise",
-	    			"text": "Recrutement"
-	    		},
-	    		{
-	    			"type": "expertise",
-	    			"text": "Mobilité professionnelle"
 	    		}
 	    	],
 	    	"paragraphsCol2": [
@@ -296,12 +251,12 @@
 			"chapter": {
 	    	"path": "contact",
 	    	"noanimate": true,
-	    	"title": "",	    	
+	    	"title": "",
 	    	"paragraphsCol1": [
 	    		{
 	    			"type": "html",
 	    			"text": "<iframe src=\"https://docs.google.com/forms/d/1QwgfScJMQLjmt1TkyAkbyoX-MLyu_Bu3G1NVNvN3VJs/viewform?embedded=true\" width=\"500\" height=\"780\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Chargement en cours...</iframe>"
-	    		}	    		    			    			    		
+	    		}
 	    	],
 	    	"paragraphsCol2": [
 	    		{
@@ -317,28 +272,19 @@
 	    				"address": {
 	    					"street": "14 rue Beffroy",
 	    					"locality": "Neuilly sur Seine",
-	    					"postal": "92200"	
+	    					"postal": "92200"
 	    				}
-	    			}	    			
+	    			}
 	    		},
 	    		{
 	    			"type": "vcard-person",
 	    			"vcard": {
 	    				"id": "Société",
-	    				"name": "Pierre Coeroli",	    				
+	    				"name": "Pierre Coeroli",
 	    				"title": "Coaching de management",
 	    				"phone": "06 43 08 94 99"
-	    			}	    			
-	    		},
-	    		{
-	    			"type": "vcard-person",
-	    			"vcard": {
-	    				"id": "Société",
-	    				"name": "Christine d’Aubigny de Saint Vulfran",
-	    				"title": "Assessment cognitif",
-	    				"phone": "06 07 04 02 49" 		
-	    			}	    			
-	    		}	    		
+	    			}
+	    		}
 	    	]
 		  }
 		},
@@ -346,7 +292,7 @@
 			"chapter": {
 		    	"path": "story",
 		    	"noanimate": true,
-		    	"title": "",	    	
+		    	"title": "",
 		    	"story": {
 		    		"img": "./images/footer.png",
 		    		"items":
@@ -363,10 +309,10 @@
 			    			"type": "html",
 			    			"text": "<p class='footer'><b>Apis Lazuli</b>, clin d'oeil de Apis avec Lapis-Lazuli: pierre sacrée égyptienne, structure le développement de la vision clairvoyante en la raccordant à la vie quotidienne.</p>"
 			    		}
-			    	]					
+			    	]
 					},
 					"styleHeight": 600
 		   }
-		}					
+		}
 	]
 }
