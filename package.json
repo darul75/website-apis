@@ -34,7 +34,6 @@
     "jsx-loader": "^0.13.2",
     "node-sass": "^2.1.1",
     "react-hot-loader": "^1.2.5",
-    "react-router": "0.13.4",
     "sass-loader": "0.4.2",
     "style-loader": "^0.10.2",
     "url-loader": "^0.5.5",
@@ -50,6 +49,7 @@
     "node-fetch": "^1.2.1",
     "object-assign": "^2.0.0",
     "react": "^0.13.2",
+    "react-router": "0.13.4",
     "serve-favicon": "^2.2.1",
     "whatwg-fetch": "^0.8.1"
   }
